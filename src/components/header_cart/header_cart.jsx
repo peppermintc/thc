@@ -6,8 +6,8 @@ const Cart = (props) => (
   <div className={styles.cart}>
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="22"
-      height="22"
+      width="35"
+      height="35"
       fill="rgb(117,117,117)"
       className="bi bi-cart"
       viewBox="0 0 16 16"
