@@ -1,0 +1,88 @@
+.container {
+  padding: 10px 40px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding-bottom: 18px;
+}
+
+.menuItem {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+
+  margin: 6px 10px;
+  padding: 14px 6px;
+}
+
+.menuItem:visited {
+  color: black;
+}
+
+.menuItem:hover {
+  color: rgb(53, 197, 242);
+}
+
+.logo {
+  height: 37px;
+  cursor: pointer;
+}
+
+.search {
+  margin-left: 95px;
+  border: 1px solid rgb(202, 202, 202);
+  display: flex;
+  padding: 6.5px;
+  border-radius: 5px;
+}
+
+.search_image {
+  margin-left: 4px;
+  margin-right: 6px;
+}
+
+.search_input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.search_input::placeholder {
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+}
+
+.right_nav {
+  display: flex;
+  align-items: center;
+}
+
+.accountMenuItem {
+  font-weight: 900;
+  font-size: 16px;
+  text-decoration: none;
+
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(117, 117, 117);
+}
+
+.accountMenuItem:visited {
+  color: rgb(117, 117, 117);
+}
+
+.accountMenuItem:hover {
+  color: rgb(53, 197, 242);
+}
+
+.vertical_line {
+  border-left: 1px solid grey;
+  height: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.write_button {
+  margin-left: 18px;
+}

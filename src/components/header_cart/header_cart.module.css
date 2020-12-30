@@ -1,0 +1,14 @@
+.cart {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.cart svg {
+  padding: 7px;
+}
+
+.cart svg:hover {
+  background-color: #35c5f0;
+  border-radius: 50%;
+  fill: white;
+}
