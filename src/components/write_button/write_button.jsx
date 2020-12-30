@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "5px",
     paddingLeft: "6px",
     paddingRight: "6px",
+
+    position: "relative",
+    zIndex: 1000,
   },
   paper: {
     marginRight: theme.spacing(2),
@@ -25,6 +28,10 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     fontSize: "16px",
     fontWeight: "900",
+    outline: "none",
+    "&:focus": {
+      outline: "none",
+    },
   },
 }));
 
@@ -79,14 +86,14 @@ export default function WriteButton() {
               width="10"
               height="10"
               fill="currentColor"
-              class="bi bi-chevron-down"
+              className="bi bi-chevron-down"
               viewBox="0 0 16 16"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                 stroke="white"
-                stroke-width="4"
+                strokeWidth="4"
               />
             </svg>
           </span>
@@ -119,7 +126,7 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-upload"
+                        className="bi bi-upload"
                         viewBox="0 0 16 16"
                       >
                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
@@ -138,15 +145,15 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-house-fill"
+                        className="bi bi-house-fill"
                         viewBox="0 0 16 16"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
                         />
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
                         />
                       </svg>
@@ -163,7 +170,7 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-youtube"
+                        className="bi bi-youtube"
                         viewBox="0 0 16 16"
                       >
                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
@@ -181,12 +188,12 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-pencil-square"
+                        className="bi bi-pencil-square"
                         viewBox="0 0 16 16"
                       >
                         <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
                         />
                       </svg>
@@ -203,7 +210,7 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-wallet"
+                        className="bi bi-wallet"
                         viewBox="0 0 16 16"
                       >
                         <path d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5V3zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a1.99 1.99 0 0 1-1-.268zM1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1z" />
@@ -221,7 +228,7 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-file-earmark-person"
+                        className="bi bi-file-earmark-person"
                         viewBox="0 0 16 16"
                       >
                         <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -240,7 +247,7 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-patch-question"
+                        className="bi bi-patch-question"
                         viewBox="0 0 16 16"
                       >
                         <path d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z" />
@@ -260,7 +267,7 @@ export default function WriteButton() {
                         width="30"
                         height="30"
                         fill="currentColor"
-                        class="bi bi-chat-left-text"
+                        className="bi bi-chat-left-text"
                         viewBox="0 0 16 16"
                       >
                         <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />

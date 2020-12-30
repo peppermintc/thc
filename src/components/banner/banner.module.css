@@ -22,11 +22,6 @@
   transition: transform 0.2s ease;
 }
 
-.banner_right {
-  background-color: blue;
-  border-radius: 5px;
-}
-
 .banner_left_title {
   left: 40px;
   width: 450px;

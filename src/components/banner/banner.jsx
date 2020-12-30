@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./banner.module.css";
 import leftBanner from "../../images/left_banner.png";
 import profile from "../../images/profile.png";
+import ImageSlider from "../image_slider/image_slider";
 
 const Banner = (props) => {
   return (
@@ -20,14 +21,16 @@ const Banner = (props) => {
             <img
               className={styles.banner_left_profile_image}
               src={profile}
-              alt="profile image"
+              alt="profile"
             />
             <span>User ID</span>
           </div>
           <button className={styles.banner_left_button}>보러가기</button>
         </div>
       </div>
-      <div className={styles.banner_right}>Slide image</div>
+      <div className={styles.banner_right}>
+        <ImageSlider />
+      </div>
     </div>
   );
 };
