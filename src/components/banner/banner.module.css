@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.banner_left {
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  width: 847px;
+  height: 564px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.banner_left_background {
+  width: 847px;
+  height: 564px;
+
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.banner_right {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.banner_left_title {
+  left: 40px;
+  width: 450px;
+  bottom: 77px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+}
+
+.banner_left:hover .banner_left_background {
+  transform: scale(1.03);
+}
+
+.banner_left_profile {
+  display: flex;
+  align-items: center;
+  left: 40px;
+  max-height: 25px;
+  height: 100%;
+  width: 100%;
+  bottom: 40px;
+  position: absolute;
+  color: white;
+}
+
+.banner_left_profile_image {
+  max-width: 25px;
+  max-height: 25px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.banner_left_button {
+  right: 40px;
+  height: 52px;
+  width: 140px;
+  bottom: 40px;
+  position: absolute;
+
+  background: none;
+  border-style: none;
+  outline: 0;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+
+  font-weight: 900;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.banner_left_button:hover {
+  border: none;
+  background-color: rgb(53, 197, 242);
+}
+
+.banner_right {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 298px;
+  height: 564px;
+  overflow: hidden;
+  margin-right: 20px;
+}
