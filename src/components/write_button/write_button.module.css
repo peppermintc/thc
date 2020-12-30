@@ -3,3 +3,17 @@
   width: 20px;
   margin-left: 3px;
 }
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.description {
+  color: grey;
+  font-size: 11px;
+}
+
+.menuItemContainer {
+  margin-left: 15px;
+}
