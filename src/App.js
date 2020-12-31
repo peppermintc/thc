@@ -9,10 +9,10 @@ import StoryMenu from './components/story_menu/story_menu';
 function App() {
   return (
     <div className={styles.App}>
-      {/* <Header />
+      <Header />
       <MenuBar />
       <Banner />
-      <Shortcuts /> */}
+      <Shortcuts />
       <Story />
     </div>
   );

@@ -1,0 +1,20 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  width: 1140px;
+}

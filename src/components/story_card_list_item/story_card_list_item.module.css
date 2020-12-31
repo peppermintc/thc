@@ -1,0 +1,48 @@
+.container {
+  cursor: pointer;
+}
+
+.description {
+  color: #424242;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: rgb(117, 117, 117);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.photo {
+  width: 270px;
+  height: 180px;
+  object-fit: cover;
+
+  transition: transform 0.2s ease;
+}
+
+.photo_box {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container:hover .photo {
+  transform: scale(1.03);
+}
+
+.inner {
+  padding: 12px;
+}
+
+.profile_image {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.user_name {
+  font-size: 14px;
+}
