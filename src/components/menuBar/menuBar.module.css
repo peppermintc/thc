@@ -11,7 +11,7 @@
   text-decoration: none;
 
   margin: 8px 4px;
-  padding: 6px 8px 13px;
+  padding: 6px 8px 15px;
 }
 
 .menuItem:visited {
@@ -21,6 +21,7 @@
 .menuItem:hover {
   color: rgb(53, 197, 242);
   border-bottom: 2px solid rgb(53, 197, 242);
+  text-decoration: none;
 }
 
 .three_d_interior_button {
@@ -42,4 +43,5 @@
 
 .three_d_interior_button:hover {
   color: rgb(53, 197, 242);
+  text-decoration: none;
 }

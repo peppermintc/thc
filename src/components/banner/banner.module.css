@@ -36,6 +36,11 @@
   transform: scale(1.03);
 }
 
+.banner_left:hover .banner_left_button {
+  border: none;
+  background-color: rgb(53, 197, 242);
+}
+
 .banner_left_profile {
   display: flex;
   align-items: center;
@@ -79,6 +84,10 @@
 .banner_left_button:hover {
   border: none;
   background-color: rgb(53, 197, 242);
+}
+
+.banner_left_button:focus {
+  outline: none;
 }
 
 .banner_right {
