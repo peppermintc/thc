@@ -11,6 +11,10 @@ function App() {
       <MenuBar />
       <Banner />
       <Shortcuts />
+      <Banner />
+      <Shortcuts />
+      <Banner />
+      <Shortcuts />
     </div>
   );
 }
