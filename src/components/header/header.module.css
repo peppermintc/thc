@@ -3,6 +3,7 @@
   display: flex;
   margin-top: 15px;
   justify-content: center;
+  align-items: center;
   border-bottom: 1px solid rgb(216, 216, 216);
   padding-bottom: 18px;
 }
@@ -22,6 +23,7 @@
 
 .menuItem:hover {
   color: rgb(53, 197, 242);
+  text-decoration: none;
 }
 
 .logo {
@@ -74,6 +76,7 @@
 
 .accountMenuItem:hover {
   color: rgb(53, 197, 242);
+  text-decoration: none;
 }
 
 .vertical_line {
