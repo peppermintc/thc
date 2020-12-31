@@ -26,7 +26,7 @@ const Header = (props) => {
           <input
             className={styles.search_input}
             type="text"
-            placeholder="오늘의집 통합검색"
+            placeholder="cloned by peppermint"
           />
         </div>
         <Cart />
