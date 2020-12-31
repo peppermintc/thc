@@ -1,0 +1,25 @@
+.menu_item {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 23px;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+.description {
+  color: rgb(117, 117, 117);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.title {
+  color: #424242;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.menu_item:hover {
+  background-color: rgb(221, 221, 221);
+}
