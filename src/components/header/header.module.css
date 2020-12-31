@@ -96,3 +96,19 @@
 .write_button {
   margin-left: 18px;
 }
+
+.selected {
+  color: rgb(53, 197, 242) !important;
+
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+
+  margin: 6px 10px;
+  padding: 14px 6px;
+}
+
+.selected:hover {
+  color: rgb(53, 197, 242);
+  text-decoration: none;
+}

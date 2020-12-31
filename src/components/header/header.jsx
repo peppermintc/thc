@@ -10,7 +10,7 @@ const Header = (props) => {
     <div className={styles.container}>
       <img className={styles.logo} src={logo} alt="logo" />
       <nav>
-        <a className={styles.menuItem} href="/">
+        <a className={`${styles.menuItem} ${styles.selected}`} href="/">
           커뮤니티
         </a>
         <a className={styles.menuItem} href="/">

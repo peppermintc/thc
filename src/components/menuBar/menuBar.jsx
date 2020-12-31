@@ -7,7 +7,7 @@ const MenueBar = (props) => {
   return (
     <div className={styles.container}>
       <nav>
-        <a className={styles.menuItem} href="/">
+        <a className={`${styles.menuItem} ${styles.selected}`} href="/">
           홈
         </a>
         <a className={styles.menuItem} href="/">

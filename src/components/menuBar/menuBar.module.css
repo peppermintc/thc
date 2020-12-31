@@ -46,3 +46,8 @@
   color: rgb(53, 197, 242);
   text-decoration: none;
 }
+
+.selected {
+  color: rgb(53, 197, 242) !important;
+  border-bottom: 2px solid rgb(53, 197, 242);
+}
