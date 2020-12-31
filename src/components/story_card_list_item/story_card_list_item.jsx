@@ -1,5 +1,4 @@
 import React from "react";
-import leftBanner from "../../images/left_banner.png";
 import profile from "../../images/profile.png";
 import styles from "./story_card_list_item.module.css";
 
