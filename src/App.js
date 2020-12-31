@@ -2,6 +2,7 @@ import styles from './App.module.css';
 import Header from './components/header/header';
 import MenuBar from './components/menuBar/menuBar';
 import Banner from './components/banner/banner';
+import Shortcuts from './components/shortcuts/shortcuts';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <MenuBar />
       <Banner />
+      <Shortcuts />
     </div>
   );
 }
