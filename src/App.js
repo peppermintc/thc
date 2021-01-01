@@ -5,6 +5,7 @@ import Banner from './components/banner/banner';
 import Shortcuts from './components/shortcuts/shortcuts';
 import Story from './components/story/story';
 import CategorySlider from './components/category_slider/category_slider';
+import Deal from './components/deal/deal';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Shortcuts />
       <Story />
       <CategorySlider />
+      <Deal />
     </div>
   );
 }

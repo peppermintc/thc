@@ -1,0 +1,94 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  max-width: 1150px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 38%;
+  width: 102%;
+  transform: translateX(5px);
+}
+
+.prev {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+.prev:hover {
+  background-color: rgb(53, 197, 240);
+}
+.prev:hover svg {
+  fill: white;
+}
+
+.next {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+.next:hover {
+  background-color: rgb(53, 197, 240);
+}
+.next:hover svg {
+  fill: white;
+}
+
+.top {
+  width: 100%;
+  padding-left: 14px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.more {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.more:hover {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+}

@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import CategorySliderItem from "../category_slider_item/category_slider_item";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bed from "../../images/bed.png";
 import c1 from "../../images/c1.png";
 import c2 from "../../images/c2.png";
 import c3 from "../../images/c3.png";
