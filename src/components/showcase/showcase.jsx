@@ -35,7 +35,12 @@ const Showcase = () => {
   return (
     <div className={styles.box}>
       <div className={styles.wrapper}>
-        <div className={styles.title}>오늘의 인기 사진</div>
+        <div className={styles.top}>
+          <span className={styles.title}>오늘의 인기 사진</span>
+          <a className={styles.more} href="/">
+            더보기
+          </a>
+        </div>
         <div className={styles.container}>
           {data.map((item, index) => (
             <div className={styles.card} key={index}>

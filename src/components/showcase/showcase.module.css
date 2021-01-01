@@ -13,12 +13,24 @@
   flex-direction: column;
 }
 
+.top {
+  width: 100%;
+  padding-left: 14px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .title {
-  font-size: 19px;
   font-weight: 900;
-  position: relative;
-  padding-left: 13px;
-  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.more {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+  font-weight: 900;
+  font-size: 15px;
 }
 
 .container {
