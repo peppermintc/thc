@@ -7,6 +7,7 @@ import Story from './components/story/story';
 import CategorySlider from './components/category_slider/category_slider';
 import Deal from './components/deal/deal';
 import Showcase from './components/showcase/showcase';
+import InteriorReview from './components/interior_review/interior_review';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <CategorySlider />
       <Deal />
       <Showcase />
+      <InteriorReview />
     </div>
   );
 }
