@@ -6,6 +6,7 @@ import Shortcuts from './components/shortcuts/shortcuts';
 import Story from './components/story/story';
 import CategorySlider from './components/category_slider/category_slider';
 import Deal from './components/deal/deal';
+import Showcase from './components/showcase/showcase';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Story />
       <CategorySlider />
       <Deal />
+      <Showcase />
     </div>
   );
 }
