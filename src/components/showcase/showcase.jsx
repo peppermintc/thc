@@ -51,7 +51,7 @@ const Showcase = () => {
                 <img src={placeholder} alt="placeholder" />
                 <span className={styles.user}>User Id</span>
               </div>
-              <div className={index < 3 && styles.bookmark}>
+              <div className={index < 3 ? styles.bookmark : undefined}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="40"

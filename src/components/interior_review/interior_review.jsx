@@ -34,8 +34,8 @@ const InteriorREview = () => {
         </a>
       </div>
       <div className={styles.container}>
-        {data.map((item) => (
-          <div className={styles.card}>
+        {data.map((item, idx) => (
+          <div className={styles.card} key={idx}>
             <div className={styles.image_box}>
               <img src={item.image} alt="placeholder" />
             </div>
@@ -45,6 +45,7 @@ const InteriorREview = () => {
                 {[...Array(5)].map((n, index) => {
                   return (
                     <svg
+                      key={index}
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
