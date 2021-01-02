@@ -9,6 +9,7 @@ import Deal from './components/deal/deal';
 import Showcase from './components/showcase/showcase';
 import InteriorReview from './components/interior_review/interior_review';
 import TodayEvent from './components/today_event/today_event';
+import TodayRecommend from './components/today_recommend/today_recommend';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Showcase />
       <InteriorReview />
       <TodayEvent />
+      <TodayRecommend />
     </div>
   );
 }

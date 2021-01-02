@@ -1,0 +1,87 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  padding-left: 14px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 900px;
+}
+
+.more {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.more:hover {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+}
+
+.card {
+  width: 194px;
+  height: 250px;
+
+  cursor: pointer;
+  padding: 11px;
+}
+
+.image_box {
+  width: 100%;
+  height: 172px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.image_box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover .image_box img {
+  transform: scale(1.05);
+}
+
+.description {
+  margin-top: 4px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.description_container {
+  padding-top: 7px;
+}
+
+.percent {
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(53, 197, 240);
+  margin-right: 5px;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 5px;
+}

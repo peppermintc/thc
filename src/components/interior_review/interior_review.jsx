@@ -4,7 +4,7 @@ import placeholder from "../../images/left_banner.png";
 import placeholder2 from "../../images/placeholder.png";
 import placeholder3 from "../../images/placeholder2.png";
 
-const InteriorREview = () => {
+const InteriorReview = () => {
   const [data] = useState([
     {
       image: placeholder,
@@ -83,4 +83,4 @@ const InteriorREview = () => {
   );
 };
 
-export default InteriorREview;
+export default InteriorReview;
