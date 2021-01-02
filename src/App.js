@@ -18,8 +18,8 @@ function App() {
   return (
     <div className={styles.App}>
       <Header />
-      {/* <MenuBar />
-      <Banner />
+      <MenuBar />
+      {/* <Banner />
       <Shortcuts />
       <Story />
       <CategorySlider />
