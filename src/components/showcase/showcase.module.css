@@ -117,3 +117,18 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+@media all and (max-width: 1248px) {
+  .more {
+    display: none;
+  }
+  .container {
+    width: 800px;
+    height: 860px;
+    overflow: hidden;
+  }
+  .title {
+    position: relative;
+    left: 110px;
+  }
+}

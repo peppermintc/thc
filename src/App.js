@@ -24,8 +24,8 @@ function App() {
       <Story />
       <CategorySlider />
       <Deal />
-      {/* <Showcase />
-      <InteriorReview />
+      <Showcase />
+      {/* <InteriorReview />
       <TodayEvent />
       <TodayRecommend />
       <Best />
