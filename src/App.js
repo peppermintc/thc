@@ -27,8 +27,8 @@ function App() {
       <Showcase />
       <InteriorReview />
       <TodayEvent />
-      {/* <TodayRecommend />
-      <Best />
+      <TodayRecommend />
+      {/* <Best />
       <Register />
       <Footer /> */}
     </div>

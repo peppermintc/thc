@@ -85,3 +85,41 @@
   font-weight: 700;
   margin-left: 5px;
 }
+
+@media all and (max-width: 1248px) {
+  .more {
+    display: none;
+  }
+  .wrapper {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: scroll;
+    margin: auto;
+  }
+
+  .top {
+    display: flex;
+    justify-content: center;
+  }
+  .title {
+    width: 600px;
+    position: relative;
+    left: 460px;
+  }
+
+  .container {
+    margin: auto;
+    display: inline-flex;
+  }
+  .card {
+    margin: 10px;
+    width: 200px;
+  }
+  .image_box {
+    width: 200px;
+    position: relative;
+    left: -10px;
+  }
+}
