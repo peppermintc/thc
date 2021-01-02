@@ -8,6 +8,7 @@ import CategorySlider from './components/category_slider/category_slider';
 import Deal from './components/deal/deal';
 import Showcase from './components/showcase/showcase';
 import InteriorReview from './components/interior_review/interior_review';
+import TodayEvent from './components/today_event/today_event';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Deal />
       <Showcase />
       <InteriorReview />
+      <TodayEvent />
     </div>
   );
 }
