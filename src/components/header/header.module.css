@@ -114,3 +114,9 @@
   color: rgb(53, 197, 242);
   text-decoration: none;
 }
+
+@media all and (max-width: 1248px) {
+  .container nav {
+    display: none;
+  }
+}

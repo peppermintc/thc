@@ -18,7 +18,7 @@ function App() {
   return (
     <div className={styles.App}>
       <Header />
-      <MenuBar />
+      {/* <MenuBar />
       <Banner />
       <Shortcuts />
       <Story />
@@ -30,7 +30,7 @@ function App() {
       <TodayRecommend />
       <Best />
       <Register />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
