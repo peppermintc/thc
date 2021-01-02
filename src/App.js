@@ -26,8 +26,8 @@ function App() {
       <Deal />
       <Showcase />
       <InteriorReview />
-      {/* <TodayEvent />
-      <TodayRecommend />
+      <TodayEvent />
+      {/* <TodayRecommend />
       <Best />
       <Register />
       <Footer /> */}
