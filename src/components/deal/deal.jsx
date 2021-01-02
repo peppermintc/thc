@@ -129,7 +129,7 @@ const Deal = (props) => {
     <div className={styles.wrapper}>
       <div className={styles.top}>
         <span className={styles.title}>오늘의딜</span>
-        <a className={styles.more} href="/">
+        <a className={styles.more} href="#">
           더보기
         </a>
       </div>

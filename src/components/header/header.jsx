@@ -10,13 +10,13 @@ const Header = (props) => {
     <div className={styles.container}>
       <img className={styles.logo} src={logo} alt="logo" />
       <nav>
-        <a className={`${styles.menuItem} ${styles.selected}`} href="/">
+        <a className={`${styles.menuItem} ${styles.selected}`} href="#">
           커뮤니티
         </a>
-        <a className={styles.menuItem} href="/">
+        <a className={styles.menuItem} href="#">
           스토어
         </a>
-        <a className={styles.menuItem} href="/">
+        <a className={styles.menuItem} href="#">
           인테리어시공
         </a>
       </nav>
@@ -30,11 +30,11 @@ const Header = (props) => {
           />
         </div>
         <Cart />
-        <a className={styles.accountMenuItem} href="/">
+        <a className={styles.accountMenuItem} href="#">
           로그인
         </a>
         <div className={styles.vertical_line}></div>
-        <a className={styles.accountMenuItem} href="/">
+        <a className={styles.accountMenuItem} href="#">
           회원가입
         </a>
         <div className={styles.write_button}>

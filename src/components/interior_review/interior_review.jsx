@@ -29,7 +29,7 @@ const InteriorReview = () => {
     <div className={styles.wrapper}>
       <div className={styles.top}>
         <span className={styles.title}>유저들의 인테리어 시공리뷰</span>
-        <a className={styles.more} href="/">
+        <a className={styles.more} href="#">
           더보기
         </a>
       </div>
