@@ -119,4 +119,8 @@
   .container nav {
     display: none;
   }
+
+  .container {
+    position: static;
+  }
 }
