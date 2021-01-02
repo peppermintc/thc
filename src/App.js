@@ -25,8 +25,8 @@ function App() {
       <CategorySlider />
       <Deal />
       <Showcase />
-      {/* <InteriorReview />
-      <TodayEvent />
+      <InteriorReview />
+      {/* <TodayEvent />
       <TodayRecommend />
       <Best />
       <Register />
