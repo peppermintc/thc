@@ -10,3 +10,9 @@
   font-size: 20px;
   font-weight: 900;
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    display: none;
+  }
+}
