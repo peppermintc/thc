@@ -4,3 +4,12 @@
   margin-top: 45px;
   margin-bottom: 33px;
 }
+
+@media all and (max-height: 1248px) {
+  .container {
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}

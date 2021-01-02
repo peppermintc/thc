@@ -20,8 +20,8 @@ function App() {
       <Header />
       <MenuBar />
       <Banner />
-      {/* <Shortcuts />
-      <Story />
+      <Shortcuts />
+      {/* <Story />
       <CategorySlider />
       <Deal />
       <Showcase />
