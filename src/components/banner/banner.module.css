@@ -98,3 +98,15 @@
   overflow: hidden;
   margin-right: 20px;
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner_right {
+    width: 100%;
+    max-width: 850px;
+  }
+}

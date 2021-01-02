@@ -19,8 +19,8 @@ function App() {
     <div className={styles.App}>
       <Header />
       <MenuBar />
-      {/* <Banner />
-      <Shortcuts />
+      <Banner />
+      {/* <Shortcuts />
       <Story />
       <CategorySlider />
       <Deal />
