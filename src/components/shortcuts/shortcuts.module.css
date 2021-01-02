@@ -5,7 +5,7 @@
   margin-bottom: 33px;
 }
 
-@media all and (max-height: 1248px) {
+@media all and (max-width: 1248px) {
   .container {
     flex-wrap: wrap;
     width: 500px;

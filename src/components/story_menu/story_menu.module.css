@@ -4,3 +4,12 @@
   overflow: hidden;
   margin-left: 22px;
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    position: relative;
+    left: -405px;
+    top: 223px;
+    width: 230px;
+  }
+}

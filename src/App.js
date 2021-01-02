@@ -21,8 +21,8 @@ function App() {
       <MenuBar />
       <Banner />
       <Shortcuts />
-      {/* <Story />
-      <CategorySlider />
+      <Story />
+      {/* <CategorySlider />
       <Deal />
       <Showcase />
       <InteriorReview />

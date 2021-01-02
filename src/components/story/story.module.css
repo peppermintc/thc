@@ -18,3 +18,17 @@
 
   width: 1140px;
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    max-width: 600px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .title {
+    padding-left: 50px;
+  }
+}

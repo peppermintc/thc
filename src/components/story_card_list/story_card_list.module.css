@@ -2,4 +2,13 @@
   display: flex;
   width: 850px;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 1248px) {
+  .container {
+    width: 500px;
+    position: relative;
+    left: -155px;
+  }
 }

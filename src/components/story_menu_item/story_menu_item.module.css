@@ -23,3 +23,17 @@
 .menu_item:hover {
   background-color: rgb(221, 221, 221);
 }
+
+@media all and (max-width: 1248px) {
+  .menu_item {
+    height: 80px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+}

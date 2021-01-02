@@ -46,3 +46,21 @@
 .user_name {
   font-size: 14px;
 }
+
+@media all and (max-width: 1248px) {
+  .profile_image,
+  .user_name,
+  .title {
+    display: none;
+  }
+
+  .photo {
+    width: 230px;
+    height: 150px;
+  }
+
+  .inner {
+    width: 230px;
+    font-size: 12px;
+  }
+}
