@@ -23,3 +23,12 @@
 .selected {
   color: rgb(53, 197, 242) !important;
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    /* display: inline;
+    width: 600px;
+    overflow-x: scroll; */
+    background-color: black;
+  }
+}

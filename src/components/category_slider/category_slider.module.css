@@ -56,3 +56,18 @@
   align-items: center;
   cursor: pointer;
 }
+
+@media all and (max-width: 1248px) {
+  .row {
+    display: none;
+  }
+  .container {
+    width: 600px;
+    overflow-x: scroll;
+    margin: auto;
+  }
+  .title {
+    position: relative;
+    left: 265px;
+  }
+}

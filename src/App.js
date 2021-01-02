@@ -22,8 +22,8 @@ function App() {
       <Banner />
       <Shortcuts />
       <Story />
-      {/* <CategorySlider />
-      <Deal />
+      <CategorySlider />
+      {/* <Deal />
       <Showcase />
       <InteriorReview />
       <TodayEvent />
