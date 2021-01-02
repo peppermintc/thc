@@ -31,6 +31,11 @@
   font-size: 15px;
 }
 
+.more:hover {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+}
+
 .card {
   width: 385px;
   height: 450px;

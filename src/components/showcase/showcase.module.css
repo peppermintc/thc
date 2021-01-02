@@ -33,6 +33,11 @@
   font-size: 15px;
 }
 
+.more:hover {
+  text-decoration: none;
+  color: rgb(53, 197, 240);
+}
+
 .container {
   align-items: center;
   display: flex;

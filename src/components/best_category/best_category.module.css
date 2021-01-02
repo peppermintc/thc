@@ -1,0 +1,25 @@
+.container {
+  width: 1170px;
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.menuItem {
+  font-weight: 900;
+  font-size: 14px;
+  text-decoration: none;
+
+  margin: 8px 4px;
+  padding: 10px 15px;
+  color: rgb(128, 127, 127);
+}
+
+.menuItem:hover {
+  color: rgb(53, 197, 242);
+  text-decoration: none;
+}
+
+.selected {
+  color: rgb(53, 197, 242) !important;
+}

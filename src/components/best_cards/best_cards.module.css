@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  width: 268px;
+  height: 380px;
+  cursor: pointer;
+
+  overflow: hidden;
+}
+
+.photo_box {
+  width: 268px;
+  height: 268px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.photo_box img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover .photo_box img {
+  transform: scale(1.05);
+}
+
+.bookmark {
+  position: relative;
+  left: 10px;
+  top: -270px;
+  opacity: 80%;
+}
+
+.rank {
+  color: white;
+  position: relative;
+  left: -25px;
+  top: 3px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.more {
+  margin: 10px;
+  width: 268px;
+  height: 268px;
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.next {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  margin: 10px;
+}
+
+.more_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 900;
+  color: rgb(78, 78, 78);
+}
+
+.description_box {
+  margin-top: -29px;
+}
+
+.description {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.percent {
+  font-weight: 700;
+  color: rgb(53, 197, 242);
+  font-size: 17px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 5px;
+}
