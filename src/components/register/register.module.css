@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.box {
+  margin: 10px;
+  width: 558px;
+  height: 63px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: rgb(187, 187, 187);
+}
+
+.open {
+  color: white;
+  background-color: rgb(255, 121, 121);
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-right: 5px;
+}
+
+.text1 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-right: 25px;
+}
+
+.text2 {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 80%;
+  margin-right: 5px;
+}

@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./best_category.module.css";
-import icon from "../../images/icon.png";
-import beta from "../../images/beta.png";
 
 const BestCategory = (props) => {
   return (
