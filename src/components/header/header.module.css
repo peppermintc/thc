@@ -22,6 +22,7 @@
 
   margin: 6px 10px;
   padding: 14px 6px;
+  color: black;
 }
 
 .menuItem:visited {
@@ -79,6 +80,7 @@
 
 .accountMenuItem:visited {
   color: rgb(117, 117, 117);
+  text-decoration: none;
 }
 
 .accountMenuItem:hover {
