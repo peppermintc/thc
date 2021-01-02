@@ -1,0 +1,28 @@
+.container {
+  background-color: rgb(243, 243, 243);
+  color: grey;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.title {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+}
+
+.title span {
+  margin-right: 10px;
+}
+
+title a,
+title a:hover,
+title a:link,
+title a:visited {
+  text-decoration: none;
+  color: grey;
+}
