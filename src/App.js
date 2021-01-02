@@ -29,8 +29,8 @@ function App() {
       <TodayEvent />
       <TodayRecommend />
       <Best />
-      {/* <Register />
-      <Footer /> */}
+      <Register />
+      <Footer />
     </div>
   );
 }
