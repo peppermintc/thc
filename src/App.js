@@ -23,8 +23,8 @@ function App() {
       <Shortcuts />
       <Story />
       <CategorySlider />
-      {/* <Deal />
-      <Showcase />
+      <Deal />
+      {/* <Showcase />
       <InteriorReview />
       <TodayEvent />
       <TodayRecommend />
