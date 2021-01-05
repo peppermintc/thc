@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.box {
+  width: 1270px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cards {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: black;
+  cursor: pointer;
+}
+
+.card:hover span {
+  text-decoration: underline;
+}
+
+.card img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+}
+
+.card span {
+  position: absolute;
+  left: auto;
+  top: auto;
+}

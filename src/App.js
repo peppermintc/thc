@@ -15,6 +15,7 @@ import Register from "./components/register/register";
 import Footer from "./components/footer/footer";
 import StoreMenuBar from "./components/store_menubar/store_menubar";
 import StoreBanner from "./components/store_banner/store_banner";
+import Keyword from "./components/keyword/keyword";
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,7 +29,7 @@ function App() {
         <Header />
         <Switch>
           {/* 커뮤니티 페이지 */}
-          <Route exact path="/">
+          <Route exact path={["/", "/thc"]}>
             <MenuBar />
             <Banner />
             <Shortcuts />
@@ -46,6 +47,11 @@ function App() {
           <Route path="/store">
             <StoreMenuBar />
             <StoreBanner />
+            <Deal />
+            <div className={styles.category}>
+              <CategorySlider />
+            </div>
+            <Keyword />
           </Route>
           {/* 인테리어시공 페이지 */}
           <Route path="/experts">
