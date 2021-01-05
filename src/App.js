@@ -16,6 +16,7 @@ import Footer from "./components/footer/footer";
 import StoreMenuBar from "./components/store_menubar/store_menubar";
 import StoreBanner from "./components/store_banner/store_banner";
 import Keyword from "./components/keyword/keyword";
+import Popular from "./components/popular/popular";
 import {
   BrowserRouter as Router,
   Switch,
@@ -52,6 +53,7 @@ function App() {
               <CategorySlider />
             </div>
             <Keyword />
+            <Popular />
           </Route>
           {/* 인테리어시공 페이지 */}
           <Route path="/experts">
