@@ -4,21 +4,22 @@ import logo from "../../images/logo.png";
 import search from "../../images/search.svg";
 import Cart from "../header_cart/header_cart";
 import WriteButton from "../write_button/write_button";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
     <div className={styles.container}>
       <img className={styles.logo} src={logo} alt="logo" />
       <nav>
-        <a className={`${styles.menuItem} ${styles.selected}`} href="#">
+        <Link className={`${styles.menuItem} ${styles.selected}`} to="/">
           커뮤니티
-        </a>
-        <a className={styles.menuItem} href="#">
+        </Link>
+        <Link className={styles.menuItem} to="/store">
           스토어
-        </a>
-        <a className={styles.menuItem} href="#">
+        </Link>
+        <Link className={styles.menuItem} to="/experts">
           인테리어시공
-        </a>
+        </Link>
       </nav>
       <nav className={styles.right_nav}>
         <div className={styles.search}>

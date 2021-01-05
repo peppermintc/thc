@@ -13,24 +13,44 @@ import TodayRecommend from './components/today_recommend/today_recommend';
 import Best from "./components/best/best";
 import Register from "./components/register/register";
 import Footer from "./components/footer/footer";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <div className={styles.App}>
-      <Header />
-      <MenuBar />
-      <Banner />
-      <Shortcuts />
-      <Story />
-      <CategorySlider />
-      <Deal />
-      <Showcase />
-      <InteriorReview />
-      <TodayEvent />
-      <TodayRecommend />
-      <Best />
-      <Register />
-      <Footer />
+      <Router>
+        <Header />
+        <Switch>
+          {/* 커뮤니티 페이지 */}
+          <Route exact path="/">
+            <MenuBar />
+            <Banner />
+            <Shortcuts />
+            <Story />
+            <CategorySlider />
+            <Deal />
+            <Showcase />
+            <InteriorReview />
+            <TodayEvent />
+            <TodayRecommend />
+            <Best />
+            <Register />
+          </Route>
+          {/* 스토어 페이지 */}
+          <Route path="/store">
+            <Register />
+          </Route>
+          {/* 인테리어시공 페이지 */}
+          <Route path="/experts">
+            <TodayRecommend />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }

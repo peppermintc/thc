@@ -26,3 +26,13 @@ title a:visited {
   text-decoration: none;
   color: grey;
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    width: 100%;
+  }
+  .title {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

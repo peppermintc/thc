@@ -10,7 +10,7 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.title}>
         <div>
-          <span>Clone coded by peppermint</span>
+          <span>Clone coded by peppermint ( Responsive Design )</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="12"
