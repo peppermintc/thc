@@ -31,7 +31,7 @@ function App() {
         <Header />
         <Switch>
           {/* 커뮤니티 페이지 */}
-          <Route exact path={["/","/thc"]}>
+          <Route exact path={["/","/thc","/community"]}>
             <ScrollToTop />
             <MenuBar />
             <Banner />

@@ -14,7 +14,7 @@ const Header = (props) => {
         <NavLink
           exact
           className={styles.menuItem}
-          to="/"
+          to="/community"
           activeClassName={styles.selected}
         >
           커뮤니티
