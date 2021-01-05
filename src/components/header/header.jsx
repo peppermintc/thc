@@ -4,22 +4,37 @@ import logo from "../../images/logo.png";
 import search from "../../images/search.svg";
 import Cart from "../header_cart/header_cart";
 import WriteButton from "../write_button/write_button";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
   return (
     <div className={styles.container}>
       <img className={styles.logo} src={logo} alt="logo" />
       <nav>
-        <Link className={`${styles.menuItem} ${styles.selected}`} to="/">
+        <NavLink
+          exact
+          className={styles.menuItem}
+          to="/"
+          activeClassName={styles.selected}
+        >
           커뮤니티
-        </Link>
-        <Link className={styles.menuItem} to="/store">
+        </NavLink>
+        <NavLink
+          exact
+          className={styles.menuItem}
+          to="/store"
+          activeClassName={styles.selected}
+        >
           스토어
-        </Link>
-        <Link className={styles.menuItem} to="/experts">
+        </NavLink>
+        <NavLink
+          exact
+          className={styles.menuItem}
+          to="/experts"
+          activeClassName={styles.selected}
+        >
           인테리어시공
-        </Link>
+        </NavLink>
       </nav>
       <nav className={styles.right_nav}>
         <div className={styles.search}>

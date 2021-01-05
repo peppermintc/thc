@@ -42,10 +42,12 @@ function App() {
           </Route>
           {/* 스토어 페이지 */}
           <Route path="/store">
+            <MenuBar />
             <Register />
           </Route>
           {/* 인테리어시공 페이지 */}
           <Route path="/experts">
+            <MenuBar />
             <TodayRecommend />
           </Route>
         </Switch>
