@@ -14,6 +14,7 @@ import Best from "./components/best/best";
 import Register from "./components/register/register";
 import Footer from "./components/footer/footer";
 import StoreMenuBar from "./components/store_menubar/store_menubar";
+import StoreBanner from "./components/store_banner/store_banner";
 import {
   BrowserRouter as Router,
   Switch,
@@ -44,7 +45,7 @@ function App() {
           {/* 스토어 페이지 */}
           <Route path="/store">
             <StoreMenuBar />
-            <Register />
+            <StoreBanner />
           </Route>
           {/* 인테리어시공 페이지 */}
           <Route path="/experts">
