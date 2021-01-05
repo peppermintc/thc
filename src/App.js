@@ -13,6 +13,7 @@ import TodayRecommend from './components/today_recommend/today_recommend';
 import Best from "./components/best/best";
 import Register from "./components/register/register";
 import Footer from "./components/footer/footer";
+import StoreMenuBar from "./components/store_menubar/store_menubar";
 import {
   BrowserRouter as Router,
   Switch,
@@ -42,7 +43,7 @@ function App() {
           </Route>
           {/* 스토어 페이지 */}
           <Route path="/store">
-            <MenuBar />
+            <StoreMenuBar />
             <Register />
           </Route>
           {/* 인테리어시공 페이지 */}
