@@ -17,6 +17,7 @@ import StoreMenuBar from "./components/store_menubar/store_menubar";
 import StoreBanner from "./components/store_banner/store_banner";
 import Keyword from "./components/keyword/keyword";
 import Popular from "./components/popular/popular";
+import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,7 +31,8 @@ function App() {
         <Header />
         <Switch>
           {/* 커뮤니티 페이지 */}
-          <Route exact path={["/", "/thc"]}>
+          <Route exact path={["/","/thc"]}>
+            <ScrollToTop />
             <MenuBar />
             <Banner />
             <Shortcuts />
@@ -46,6 +48,7 @@ function App() {
           </Route>
           {/* 스토어 페이지 */}
           <Route path="/store">
+            <ScrollToTop />
             <StoreMenuBar />
             <StoreBanner />
             <Deal />
@@ -57,6 +60,7 @@ function App() {
           </Route>
           {/* 인테리어시공 페이지 */}
           <Route path="/experts">
+            <ScrollToTop />
             <MenuBar />
             <TodayRecommend />
           </Route>
