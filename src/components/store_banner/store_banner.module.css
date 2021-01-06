@@ -71,3 +71,12 @@
   background-color: rgb(101, 110, 117) !important;
   color: white;
 }
+
+@media all and (max-width: 1248px) {
+  .menu {
+    display: none;
+  }
+  .container {
+    height: 380px;
+  }
+}
