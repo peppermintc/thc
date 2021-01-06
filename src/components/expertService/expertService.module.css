@@ -70,3 +70,18 @@
 .simple_button:hover {
   background-color: rgb(12, 72, 112);
 }
+
+@media all and (max-width: 1248px) {
+  .container {
+    height: 400px;
+  }
+  .box {
+    width: 600px;
+    height: 400px;
+  }
+  .buttons {
+    flex-direction: column;
+    height: 160px;
+    justify-content: unset;
+  }
+}
