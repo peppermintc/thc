@@ -27,6 +27,7 @@
 .card {
   width: 295px;
   height: 250px;
+  cursor: pointer;
 }
 
 .img_box {
