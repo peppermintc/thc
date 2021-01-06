@@ -6,7 +6,10 @@ import placeholder3 from "../../images/left_banner.png";
 
 const ExpertExample = () => {
   const [examples] = useState([
-    { image: placeholder1, description: "가족의 각감을 더해 완성한 인테리어" },
+    {
+      image: placeholder1,
+      description: "가족의 각감을 더해 완성한 인테리어",
+    },
     {
       image: placeholder2,
       description: "전/후 | 30년 넘은 빌라, 새로운 변화의 시작",
