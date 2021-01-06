@@ -25,6 +25,7 @@ import ExpertSlide from "./components/expertSlide/expertSlide";
 import ExpertReview from "./components/expertReview/expertReview";
 import ExpertExample from "./components/expertExample/expertExample";
 import ExpertRead from "./components/expertRead/expertRead";
+import ExpertService from "./components/expertService/expertService";
 import {
   BrowserRouter as Router,
   Switch,
@@ -76,6 +77,7 @@ function App() {
             <ExpertReview />
             <ExpertExample />
             <ExpertRead />
+            <ExpertService />
           </Route>
         </Switch>
         <Footer />

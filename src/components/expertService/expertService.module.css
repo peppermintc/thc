@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 1250px;
+  height: 300px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.button {
+  border: 1px solid rgba(192, 192, 192, 0.486);
+  border-radius: 5px;
+  width: 615px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.button_title {
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+.button_title svg {
+  margin-left: 3px;
+}
+
+.button_description {
+  color: rgb(80, 80, 80);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.simple_button {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(12, 94, 150);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.simple_button:hover {
+  background-color: rgb(12, 72, 112);
+}
