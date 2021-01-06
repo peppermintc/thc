@@ -60,3 +60,17 @@
   display: flex;
   justify-content: center;
 }
+
+@media all and (max-width: 1248px) {
+  .title_box {
+    width: 600px;
+  }
+  .card_box {
+    width: 600px;
+  }
+  .container {
+    margin-top: 40px;
+    height: 1150px;
+    justify-content: unset;
+  }
+}
