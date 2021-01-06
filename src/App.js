@@ -18,6 +18,7 @@ import StoreBanner from "./components/store_banner/store_banner";
 import Keyword from "./components/keyword/keyword";
 import Popular from "./components/popular/popular";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
+import ExpertButtons from "./components/expertButtons/expertButtons";
 import {
   BrowserRouter as Router,
   Switch,
@@ -62,7 +63,7 @@ function App() {
           <Route path="/experts">
             <ScrollToTop />
             <MenuBar />
-            <TodayRecommend />
+            <ExpertButtons />
           </Route>
         </Switch>
         <Footer />
