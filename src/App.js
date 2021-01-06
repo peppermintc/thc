@@ -19,6 +19,7 @@ import Keyword from "./components/keyword/keyword";
 import Popular from "./components/popular/popular";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import ExpertButtons from "./components/expertButtons/expertButtons";
+import ExpertBanner from "./components/expertBanner/expertBanner";
 import {
   BrowserRouter as Router,
   Switch,
@@ -64,6 +65,7 @@ function App() {
             <ScrollToTop />
             <MenuBar />
             <ExpertButtons />
+            <ExpertBanner />
           </Route>
         </Switch>
         <Footer />
