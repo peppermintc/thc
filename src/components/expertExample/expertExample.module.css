@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  flex-direction: column;
+}
+
+.title_box {
+  width: 1250px;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.card_box {
+  width: 1250px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 295px;
+  height: 250px;
+}
+
+.img_box {
+  width: 295px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img_box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.description {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}

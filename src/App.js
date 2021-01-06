@@ -23,6 +23,7 @@ import ExpertBanner from "./components/expertBanner/expertBanner";
 import Calculate from "./components/calculate/calculate";
 import ExpertSlide from "./components/expertSlide/expertSlide";
 import ExpertReview from "./components/expertReview/expertReview";
+import ExpertExample from "./components/expertExample/expertExample";
 import {
   BrowserRouter as Router,
   Switch,
@@ -72,6 +73,7 @@ function App() {
             <Calculate />
             <ExpertSlide />
             <ExpertReview />
+            <ExpertExample />
           </Route>
         </Switch>
         <Footer />
