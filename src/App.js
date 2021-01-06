@@ -26,6 +26,7 @@ import ExpertReview from "./components/expertReview/expertReview";
 import ExpertExample from "./components/expertExample/expertExample";
 import ExpertRead from "./components/expertRead/expertRead";
 import ExpertService from "./components/expertService/expertService";
+import ExpertMenuBar from "./components/expert_menubar/expert_menubar";
 import {
   BrowserRouter as Router,
   Switch,
@@ -69,7 +70,7 @@ function App() {
           {/* 인테리어시공 페이지 */}
           <Route path="/experts">
             <ScrollToTop />
-            <MenuBar />
+            <ExpertMenuBar />
             <ExpertButtons />
             <ExpertBanner />
             <Calculate />

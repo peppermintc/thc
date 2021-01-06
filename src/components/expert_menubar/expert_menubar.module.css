@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  margin-top: 77px;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  width: 1150px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.menuItem {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+
+  margin: 8px 4px;
+  padding: 6px 8px 15px;
+}
+
+.menuItem:visited {
+  color: black;
+}
+
+.menuItem:hover {
+  color: rgb(53, 197, 242);
+  border-bottom: 2px solid rgb(53, 197, 242);
+  text-decoration: none;
+}
+
+.three_d_interior_button {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+
+  margin: 8px 4px;
+  padding: 6px 8px 4px;
+}
+
+.three_d_interior_button:visited {
+  color: rgb(59, 59, 59);
+}
+
+.three_d_interior_button:hover {
+  color: rgb(53, 197, 242);
+  text-decoration: none;
+}
+
+.selected {
+  color: rgb(53, 197, 242) !important;
+  border-bottom: 2px solid rgb(53, 197, 242);
+}
+
+@media all and (max-width: 1248px) {
+  .three_d_interior_button {
+    display: none;
+    min-width: 640px;
+  }
+
+  .menuItem {
+    font-size: 12px;
+    padding: 6px 6px 7px;
+  }
+
+  .container {
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
