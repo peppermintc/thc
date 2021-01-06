@@ -21,6 +21,7 @@ import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import ExpertButtons from "./components/expertButtons/expertButtons";
 import ExpertBanner from "./components/expertBanner/expertBanner";
 import Calculate from "./components/calculate/calculate";
+import ExpertSlide from "./components/expertSlide/expertSlide";
 import {
   BrowserRouter as Router,
   Switch,
@@ -68,6 +69,7 @@ function App() {
             <ExpertButtons />
             <ExpertBanner />
             <Calculate />
+            <ExpertSlide />
           </Route>
         </Switch>
         <Footer />

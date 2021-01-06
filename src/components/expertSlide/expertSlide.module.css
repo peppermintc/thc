@@ -1,0 +1,128 @@
+.container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 1250px;
+  height: 630px;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.item {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.selected {
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 1px solid black;
+}
+
+.image_container {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+.image_window {
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+
+.image_div {
+  width: 100%;
+  height: 550px;
+  border: 1px solid rgba(177, 177, 177, 0.486);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 1265px;
+  margin-right: 20px;
+  transform: translateX(5px);
+  position: relative;
+  top: -290px;
+}
+
+.prev {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  position: relative;
+  left: -30px;
+}
+.prev:hover {
+  background-color: rgb(53, 197, 240);
+}
+.prev:hover svg {
+  fill: white;
+}
+
+.next {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+}
+.next:hover {
+  background-color: rgb(53, 197, 240);
+}
+.next:hover svg {
+  fill: white;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 15px;
+  color: grey;
+}
+.image {
+  position: relative;
+  right: 0;
+  top: 0;
+}
+.text_box {
+  display: flex;
+  flex-direction: column;
+}

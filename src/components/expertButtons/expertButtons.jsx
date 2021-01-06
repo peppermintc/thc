@@ -10,7 +10,7 @@ const ExpertButtons = () => {
 
   return (
     <div className={styles.container}>
-      <dib className={styles.box}>
+      <div className={styles.box}>
         <div
           className={
             leftClicked
@@ -31,7 +31,7 @@ const ExpertButtons = () => {
         >
           업체 탐색
         </div>
-      </dib>
+      </div>
     </div>
   );
 };
