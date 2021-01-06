@@ -60,3 +60,9 @@
 .button:hover {
   color: rgb(40, 81, 141);
 }
+
+@media all and (max-width: 1248px) {
+  .box {
+    left: 20%;
+  }
+}
