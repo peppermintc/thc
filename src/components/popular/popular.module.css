@@ -137,3 +137,9 @@
   font-weight: 900;
   margin-left: 5px;
 }
+
+@media all and (max-width: 1248px) {
+  .box {
+    width: 700px;
+  }
+}
