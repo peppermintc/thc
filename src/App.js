@@ -20,6 +20,7 @@ import Popular from "./components/popular/popular";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import ExpertButtons from "./components/expertButtons/expertButtons";
 import ExpertBanner from "./components/expertBanner/expertBanner";
+import Calculate from "./components/calculate/calculate";
 import {
   BrowserRouter as Router,
   Switch,
@@ -66,10 +67,12 @@ function App() {
             <MenuBar />
             <ExpertButtons />
             <ExpertBanner />
+            <Calculate />
           </Route>
         </Switch>
         <Footer />
       </Router>
+
     </div>
   );
 }
